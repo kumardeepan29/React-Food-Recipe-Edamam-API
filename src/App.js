@@ -11,7 +11,7 @@ const App= () => {
  
   const[recipes,setRecipes]= React.useState([]);
   const[search, setSearch]=React.useState("");
-  const[query, setQuery]=React.useState('chicken')
+  const[query, setQuery]=React.useState('chick')
   
   useEffect(() => {
    getreceipes();
